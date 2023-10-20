@@ -1,14 +1,3 @@
-
-class Main{
-    public static void main(String[] args) {
-        Student stu=new Student();
-        Teacher tea=new Teacher();
-        stu.name(23,34,34);
-        stu.name(28,34);
-        tea.name(29,28,67);
-        tea.name(24,34);
-    }
-}
 class College{
     int a=20;
   
@@ -39,4 +28,15 @@ class Student extends College{
         System.out.println(a+b+c);
         System.out.println(super.a);
         }
+}
+
+class Main{
+    public static void main(String[] args) {
+        Student stu=new Student();
+        Teacher tea=new Teacher();
+        stu.name(23,34,34);
+        stu.name(28,34);
+        tea.name(29,28,67);
+        tea.name(24,34);
+    }
 }
