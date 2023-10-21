@@ -1,15 +1,3 @@
-class ClassName{
-   public static void main(String[] args) {
-      student a1 = new student();
-      teacher a2 = new teacher();
-      clg a = new clg();
-      a1.bark(2,3,4);
-      a2.bark1(1,2,1);
-      a1.bark2(1,2,3);
-      a2.bark(3,4,5);
-      
-      }
-  }
 class clg{
     int x=100;
     void bark(int x, int y, int z){
@@ -36,4 +24,17 @@ class student extends clg{
        System.out.println(x+y+z); 
    }
        }
+
+class ClassName{
+   public static void main(String[] args) {
+      student a1 = new student();
+      teacher a2 = new teacher();
+      clg a = new clg();
+      a1.bark(2,3,4);
+      a2.bark1(1,2,1);
+      a1.bark2(1,2,3);
+      a2.bark(3,4,5);
+      
+      }
+  }
 
