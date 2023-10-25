@@ -5,15 +5,15 @@ class Employees
     String name = "kana";
     void getAge()
     {
-        System.out.println("employee age is:"+emp_age);
+        System.out.println("Employee age is:"+emp_age);
     }
     void getSalary()
     {
-        System.out.println("employee salary is:"+emp_salary);
+        System.out.println("Employee salary is:"+emp_salary);
     }
     void getName()
     {
-        System.out.println("employee name is:"+name);
+        System.out.println("Employee name is:"+name);
     }
     public static void main(String[] args)
     {
